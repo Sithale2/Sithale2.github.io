@@ -1,20 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-
-    <title>Elric Krebs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!--  Favicons: https://favicon.io/favicon-converter/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  
+    <title>Elric Krebs</title>    
+    <link rel="stylesheet" href="template.css" type="text/css" media="all">
 </head>
-<body>
 
-    <div>
-        <h1>Elric Krebs</h1>
+<body class="site">
+  
+<div class="bateye"> <img src="GothicBatEye.png" alt=""> </div>
+  
+    <header class="masthead">
+        <div class="logo" id="top">Elric Krebs</div>
+        <h2 class="site-title">Professional Weirdo</h2>
+    </header><!-- .masthead -->
 
-        <img src="BetterImage.jpg" alt="">
-    </div>
+    <figure class="feature">
+      <center><img src="BetterImage.jpg" alt="Placeholder Image"></center>
+    </figure>
+
+    <main id="content" class="main-area">
+        <section class="splash">
+            <div class="splash-content">
+                <h2 class="content-title">Biography: Elric Krebs</h2>
+                <div class="splash-text">
+                    <p>I’m a 6’2’’ goth introvert with an interesting and abnormal sense of humor. Hi, nice to meet you!
+Majoring in computer science and also minoring in digital design. My skills are primarily set within Java code and the Adobe Suite, however I seek to become far more skilled in game design and <strong>programming / animation</strong>. That is my dream.
+Words that describe me as a person would be Vampire, Victorian, Foodie, Punk, Silly, and Kind.
+Super Powers: Have a very consistent sense of style and aesthetic while being able to just disappear and hide in the dark. Good at standing out, but disappearing when I don’t need to be there.</p>
+                </div><!-- .splash-text -->
+            </div><!-- .splash-content -->
+        </section><!-- .splash -->
+
+        <section class="buckets">
+            <ul>
+                <li>
+                                        <div class="bucket">
+                        <h3 class="bucket-title">Motion 1 Topographic Poster</h3>
+                        <figure>
+                        <video controls preload muted loop id="typeposter">
+                          <source src="TopographicPosterV2.mp4" type="video/mp4">
+                         
+                        </video>
+                          <figcaption>This was the last step in my motion class before making a final reel of all the animations that
+                          quarter. It was fun working with the blood effect and playing with the styles and effects for the text.
+                          Could very likely make something more intricate the next time I animate with typography.</figcaption>
+                          
+                        </figure>
+                    </div><!-- .bucket -->
+                </li>
+                <li>
+                                        <div class="bucket">
+                        <h3 class="bucket-title">UX Drink Dispensery</h3>
+                        <figure>
+                          <a href="#item-1">
+                            <img src="DrinkImage.png" alt="Thumbnail" class="bucketimage"/>
+                          </a>
+                          <figcaption>In UX Design we had to create the interface for a drink machine that can be found just
+                          about anywhere outside. Much like a vending machine, but focusing on espresso dirnks. Provided will be
+                          a link to the figma page in which it was created. <br><br>
+                          <a href="https://www.figma.com/proto/xoscGzFM4ilX713YNbFT0r/Project-%233%3A-Hot-Drink-Dispenser?node-id=16-124&scaling=contain&page-id=16%3A121&starting-point-node-id=16%3A124" id="bucketlink">UX Drink Dispenser</a>
+                          </figcaption>
+                          </figure>
+                                          
+                          <div class="overlay" id="item-1">
+                            <a href="#">
+                              <img src="DrinkImageBig.png" alt="Fullsize" />
+                            </a>
+
+                          </div>
+                    </div><!-- .bucket -->
+                </li>
+                <li>
+                                        <div class="bucket">
+                        <h3 class="bucket-title">Github CS Work For Actuator</h3>
+                        <figure>
+                          <a href="#item-2">
+                            <img src="GithubImage.png" alt="Thumbnail" class="bucketimage"/>
+                          </a>
+                          <figcaption>
+                            The general concept for this assignment was to do research into a test company's request for code.
+                            Take the keywords from the request and break it down into simple to understand concepts. Once an
+                            understanding of the idea is found, begin formalizing an approach to building the concept
+                            in the way of code.
+                            
+                            <br><br>
+                            <a href="https://github.com/Sithale2/CSCD-350-Team-Final-2022/blob/main/README.md" id="bucketlink">Github Code Page</a>
+                          </figcaption>
+                          </figure>
+                                          
+                          <div class="overlay" id="item-2">
+                            <a href="#">
+                              <img src="GithubImageBig.png" alt="Fullsize" />
+                            </a>
+
+                          </div>
+                    </div><!-- .bucket -->
+                </li>
+            </ul>
+        </section><!-- .buckets -->
+
+        <section class="more">
+            <div class="more-content">
+                <h2 class="content-title">Contact Information</h2>
+                <p>I do not presently exist anywhere on social media that I actively keep an eye on. You can however text me, or email me at: <br><br> (509)216-0918 <br><br> ekrebs@ewu.edu<p>
+            </div><!-- .more-content -->
+        </section><!-- .more -->
+    </main>
+
+    <aside class="sidebar">
+        <div class="twin">
+            <h2 class="content-title">Favorite Band: Siouxsie And The Banshees</h2>
+            <video controls preload autoplay muted loop id="siouxsie">
+          <source src="SiouxsieATBPeekABoo.mp4" type="video/mp4">  
+        </video>
+        </div>
+        <div class="twin">
+            <h2 class="content-title">Pastries, Yum</h2>
+            <img src="GothCookies.jpg" alt="">
+            <p>I can never get enough sweets... Don't win me over with promises of candy and pastries or anything.</p>
+        </div>
+    </aside><!-- .sidebar -->
+
+    <footer class="colophon">
+		<a href="#top">Back To Top</a>
+    </footer>
+
 </body>
+
 </html>
